@@ -202,7 +202,7 @@ func safeError(w http.ResponseWriter, r *http.Request) {
 	buf.WriteTo(w)
 }
 
-// GET /report: safe reporting pattern using bytes.Buffer (Experiment 5 Part D)
+// GET /report: safe reporting pattern using bytes.Buffer (Experiment 5 Part D) ....
 func reportPage(w http.ResponseWriter, r *http.Request) {
 	var buf bytes.Buffer
 	buf.WriteString("<html><body><h1>Report</h1>")
